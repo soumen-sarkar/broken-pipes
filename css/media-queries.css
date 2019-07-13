@@ -1,0 +1,304 @@
+/*Extra large device (Desktops)*/
+@media (min-width: 1200px) and (max-width: 1920px) {
+	
+}
+/*Medium device (Desktops)*/
+@media (min-width: 990px) and (max-width: 1199px) {
+	.headerContact h5, .headerContact h5 a {
+		font-size: 18px;
+		padding: 8px 18px;
+	}
+	.navbar li a {
+		font: 600 13px 'Open Sans', sans-serif;
+		padding: 15px 8px;
+	}
+	.bannerWideContent h1, .bannerWideContent h1 a {
+		font-size: 49px;
+	}
+	.bannerWideContent h2, .bannerWideContent h2 a {
+		font-size: 32px;
+	}
+	.bannerWideContent h3, .bannerWideContent h3 a {
+		font-size: 20px;
+		line-height: 36px;
+	}
+	.process {
+		padding: 25px 0;
+	}
+	.ourProcess h2 {
+		position: static;
+		font-size: 43px;
+		line-height: 43px;
+		padding: 0 0 33px 0;
+		text-align: center;
+		transform: none;
+		width: 100%;
+	}
+	.ourProcess h2 br {
+		display: none;
+	}
+	.areaServe {
+		padding: 50px 0 40px;
+	}
+	.areaMap {
+		margin: 48px 0 0 0;
+	}	
+	.areaServe h3 {
+		font-size: 28px;
+		margin: 0 0 17px 0;
+	}	
+	.areaServeList li {
+		font-size: 14px;
+	}
+	.areaServeList li li {
+		line-height: 18px;
+	}
+	.testimonials {
+		padding: 30px 0 0 0;
+	}
+	.testimonials h2, .testimonials h2 a {
+		font-size: 38px;
+	}
+	.whyChoose p {
+		font-size: 16px;
+	}
+	.testimonials p {
+		font-size: 20px;
+	}
+	.whyChoose, .testimonialSliderHolder {
+		padding: 0 20px 30px;
+	}
+	.testimonialSliderHolder p {
+		line-height: 32px;
+	}	
+	.contactNo h2, .contactNo h2 a {
+		font-size: 63px;
+	}	
+}
+/*Small device (Tablets)*/
+@media (max-width: 989px) {
+	.headerContact h5, .headerContact h5 a {
+		font-size: 14px;
+		padding: 5px 13px;
+	}
+	.navbar li a {
+		font: 600 10px 'Open Sans', sans-serif;
+		padding: 15px 5px;
+	}
+	.bannerWideContent h1, .bannerWideContent h1 a {
+		font-size: 39px;
+	}
+	.bannerWideContent h2, .bannerWideContent h2 a {
+		font-size: 26px;
+	}
+	.bannerWideContent h3, .bannerWideContent h3 a {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.specialHr {
+		width: 50%;
+	}
+	.content {
+		padding-bottom: 13px
+	}
+	.cta {
+		margin-bottom: 23px;
+	}	
+	.process {
+		padding: 15px 0;
+	}	
+	.ourProcessList li {
+		margin: 0 0 13px 0;
+	}
+	.processIcon {
+		display: block;
+		float: none;
+		margin: 0 auto 13px;
+		height: 83px;
+		width: 83px;
+	}
+	.process h4 {
+		font-size: 23px;
+		margin: 0 0 9px 0;
+		text-align: center;
+	}
+	.process p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.ourProcess h2 {
+		position: static;
+		font-size: 43px;
+		line-height: 43px;
+		padding: 0 0 33px 0;
+		text-align: center;
+		transform: none;
+		width: 100%;
+	}
+	.ourProcess h2 br {
+		display: none;
+	}
+	.areaServe {
+		padding: 30px 0 20px;
+	}
+	.areaServeList {
+		margin-bottom: 23px;
+	}
+	.testimonials {
+		padding: 17px 0 0 0;
+	}
+	.testimonials h2, .testimonials h2 a {
+		font-size: 28px;
+	}
+	.whyChoose p {
+		font-size: 14px;
+	}
+	.testimonials p {
+		font-size: 18px;
+	}
+	.whyChoose, .testimonialSliderHolder {
+		padding: 0 0 23px;
+	}
+	.testimonialSliderHolder p {
+		line-height: 28px;
+	}
+	.testimonialSliderHolder .carousel-control {
+		width: 7%;
+	}
+	.testimonialSliderHolder .fa {
+		font-size: 43px;
+	}
+	.contactNo h2, .contactNo h2 a {
+		font-size: 47px;
+	}		
+}
+/*Extra small device (Phones)*/
+@media (max-width: 767px) {
+	.header {
+		padding-bottom: 13px;
+	}
+	.logo a, .logo a img {
+		display:block;
+		margin: 0 auto;
+	}
+	.headerContact {
+		float: none;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		text-align: center
+	}
+	.navbar li {
+		display: block;
+	}
+	.navbar li a {
+		background-color: #0094c8;
+		color: #ffffff;
+		font: 600 13px 'Open Sans', sans-serif; 
+		padding: 5px;
+		text-align: left;
+	}
+	.navbar li a:hover,
+	.navbar li a:focus,
+	.navbar li.active a {
+		background-color: #0078a2;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.bannerWideContent h1, .bannerWideContent h1 a {
+		font-size: 19px;
+	}
+	.bannerWideContent h2, .bannerWideContent h2 a {
+		font-size: 13px;
+	}
+	.bannerWideContent h3, .bannerWideContent h3 a {
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.specialHr {
+		width: 83%;
+	}
+	.ctaContainer h5 {
+		font-size: 19px;
+		margin: 0 0 9px 0;
+	}
+	.content {
+		padding-top: 20px
+	}
+	.contentHeading h4 {
+		font-size: 23px;
+		margin-bottom: 23px;
+	}
+	.content h6 {
+		font-size: 15px;
+		margin: 0 0 7px 0;
+	}
+	.content p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.contactNo {
+		margin: 0 0 33px 0;
+	}
+	.contactNo h4 {
+		font-size: 23px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.contactNo h2, .contactNo h2 a {
+		font-size: 33px;
+		text-align: center;
+	}
+	.ctaContainer p {
+		line-height: 21px;
+	}
+	.ourProcess h2 {
+		font-size: 33px;
+		padding: 0 0 9px 0;
+	}
+	.process h4 {
+		font-size: 19px;
+		margin: 0 0 5px 0;
+	}
+	.areaServe {
+		padding: 23px 0;
+	}	
+	.areaServe h3 {
+		font-size: 18px;
+		margin: 0 0 9px 0;
+	}	
+	.areaServeList li {
+		font-size: 14px;
+		padding: 3px 0;
+	}
+	.areaServeList li li {
+		line-height: 18px;
+	}
+	.carousel-control.right .fa {
+		left: 0;
+	}
+	.testimonials {
+		padding: 13px 0 0 0;
+	}
+	.testimonials h2, .testimonials h2 a {
+		font-size: 23px;
+	}
+	.whyChoose p {
+		font-size: 12px;
+	}
+	.testimonials p {
+		font-size: 16px;
+	}
+	.whyChoose, .testimonialSliderHolder {
+		padding: 0 0 33px;
+	}
+	.testimonialSliderHolder p {
+		line-height: 23px;
+	}
+	.testimonialSliderHolder .carousel-control {
+		width: 9%;
+	}
+	.testimonialSliderHolder .fa {
+		font-size: 33px;
+	}
+}

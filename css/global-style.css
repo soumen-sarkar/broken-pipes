@@ -1,0 +1,536 @@
+@import url("font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Roboto:400,300,500,700,900);
+body {
+	margin: 0 auto;
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	background-color: #ffffff;
+}
+a {
+	color: #0078a2;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	transition: all 0.20s linear 0s;
+}
+a:focus {
+	outline: none;
+}
+a img {
+	border: 0;
+}
+h1, h1 a {
+	color: #0078a2;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 53px;
+	font-weight: 700;
+	margin: 0;
+}
+h2, h2 a {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0;
+}
+h3, h3 a {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 39px;
+	font-weight: 800;
+	margin: 0;
+}
+h4, h4 a {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0;
+}
+h5, h5 a {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0;
+}
+h6, h6 a {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	margin: 0;
+}
+p, ul, ol {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	margin: 0;
+	line-height: 29px;
+}
+hr {
+	background-color: #b0b0b0;
+    border: 0 none;
+    height: 2px;
+}
+.specialHr {
+	margin: 0 auto 37px;
+	background-color: #b0b0b0;
+	display: block;
+	height: 2px;
+	text-align: center;
+	width: 25%;
+}
+.specialHr span {
+	background-color: #ffffff;
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	position: relative;
+	padding: 0 15px;
+	top: -0.7em;
+	text-transform: uppercase;
+}
+.button1, .button2 {
+    display: inline-block;
+}
+.largeButton, .fullwidthButton {
+    display: block;
+}
+.button1, .largeButton {
+	border: 1px solid #cccccc;
+	background-color: #0078a2;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 11px 13px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.button1:hover, .largeButton:hover {
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #006b90;
+}
+.button2, .fullwidthButton {
+	border: 1px solid #cccccc;
+	background-color: #b7b7b7;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 11px 13px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.button2:hover, .fullwidthButton:hover {
+	background-color: #636363;
+	color: #ffffff;
+    cursor: pointer;
+}
+.wrapper {
+	width: 100%;
+}
+.wrapper:after {
+	content: "";
+	display: block;
+}
+table {
+    border-spacing: 0 !important;
+}
+.hvMiddle {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.whiteBackground {
+	background-color: #ffffff;
+}
+.blueBackground {
+	background-color: #0078a2;
+}
+.fullRound {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+/*-------------------------FORM STYLE START---------------------*/
+.wrapper label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #0078a2;
+	font-weight: 700;
+	margin: 0;
+}
+.wrapper input[type="submit"],
+.wrapper input[type="button"],
+.wrapper input[type="reset"] {
+	border: 1px solid #cccccc;
+	background-color: #0078a2;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 10px 13px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.wrapper input[type="submit"]:hover,
+.wrapper input[type="button"]:hover,
+.wrapper input[type="reset"]:hover {
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #006b90;
+}
+.wrapper input[type="text"],
+.wrapper input[type="email"],
+.wrapper input[type="number"],
+.wrapper input[type="tel"],
+.wrapper input[type="password"],
+.wrapper textarea,
+.wrapper select {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	height: auto;
+	padding: 10px 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrapper textarea {
+	resize: none;
+}
+/*-------------------------FORM STYLE END-----------------------*/
+/*-------------------------HEADER START----------------------------*/
+.headerWide {
+	width: 100%;
+}
+.logo {
+	padding: 16px 0;
+}
+.headerContact {
+	background-color: #0078a2;
+	float: right;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+.headerContact h5, .headerContact h5 a {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+	padding: 10px 33px;
+}
+.headerContact h5 span {
+	padding: 0 13px;
+}
+/*-------------------------HEADER END------------------------------*/
+/*-------------------------NAVIGATION START------------------------------*/
+.navigation {
+	background-color: transparent;
+}
+.navbar-collapse {
+	padding: 0;
+}
+.navbar {
+	border: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+}
+.navbar li {
+	display: inline-block;
+}
+.navbar li a {
+	font: 600 13px 'Open Sans', sans-serif;
+	color: #636363;
+	display: block;
+	padding: 15px 12px;
+	text-transform: uppercase;
+}
+.navbar li a:hover,
+.navbar li a:focus,
+.navbar li.active a {
+	color: #0078a2;
+	text-decoration: none;
+}
+/*-------------------------NAVIGATION END--------------------------------*/
+/*-------------------------BANNER START---------------------------*/
+.bannerWide {
+	width: 100%;
+	position: relative
+}
+.bannerWide img {
+	width: 100%;
+}
+.bannerWideContent {
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+.bannerWideContent h1, .bannerWideContent h1 a {
+	color: #7fcdc8;
+	font-size: 69px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.bannerWideContent h2, .bannerWideContent h2 a {
+	color: #ffffff;
+	font-size: 44px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.bannerWideContent h3, .bannerWideContent h3 a {
+	color: #ffffff;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 53px;
+}
+/*-------------------------BANNER END---------------------------*/
+/*-------------------------CONTENT START---------------------------*/
+.contentWide {
+	width: 100%;
+}
+.content {
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+.ctaIcon {
+	display: block;
+	height: 100px;
+	position: relative;
+	margin: 0 auto 25px;
+	width: 100px;
+}
+.ctaContainer h5 {
+	margin: 0 0 19px 0;
+	text-align: center;
+}
+.ctaContainer h5 a:hover {
+	text-decoration: none;
+}
+.ctaContainer p {
+	font-size: 14px;
+	text-align: center;
+}
+.contentHeading h4 {
+	text-align: center;
+	margin: 0 0 60px 0;
+}
+.contactNo {
+	width: 100%;
+}
+.contactNo h4 {
+	text-transform: uppercase;
+}
+.contactNo h2, .contactNo h2 a {
+	color: #0078a2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 83px;
+	font-weight: 800;
+	margin: 0;
+}
+.contactNo h2 span, .contactNo h2 a span {
+	color: #b7b7b7;
+}
+/*-------------------------CONTENT END---------------------------*/
+/*-------------------------PROCESS START---------------------------*/
+.processWide {
+	background-color: #ebebeb;
+	width: 100%;
+}
+.process {
+	padding: 70px 0;
+}
+.ourProcess h2 {
+	color: #b7b7b7;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 119px;
+	font-weight: 800;
+	line-height: 99px;
+	padding: 0 0 0 40px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 100%;
+}
+.ourProcess h2 span {
+	font-weight: 300;
+}
+.ourProcessList {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.ourProcessList li {
+	margin-bottom: 38px;
+}
+.ourProcessList li:last-child {
+	margin-bottom: 0px;
+}
+.processIcon {
+	float: left;
+	height: 100px;
+	position: relative;
+	margin: 0 37px 0 0;
+	width: 100px;
+}
+.process h4, .process p {
+	overflow: hidden;
+}
+.process h4 {
+	text-transform: uppercase;
+}
+.process h5 {
+	color: #636363;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-weight: 800;
+	width: 100%;
+	text-align: center;
+}
+/*-------------------------PROCESS END---------------------------*/
+/*-------------------------AREA WE SEARVE START----------------------------*/
+.areaServeWide {
+	width: 100%;
+}
+.areaServe {
+	padding: 80px 0 70px;
+}
+.areaServe h3 {
+	margin: 0 0 23px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.areaServeList {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.areaServeList li {
+	color: #636363;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	padding: 5px 0;
+	margin: 0;
+	width: 100%;
+}
+.areaServeList li li {
+	float: left;
+	position: relative;
+	list-style: disc;
+	width: 50%;
+}
+.areaServeList > li:nth-child(odd) {
+	background-color: #ebebeb;
+}
+.areaServeList > li:nth-child(even) {
+	background-color: transparent;
+}
+.areaMap {
+	margin: 64px 0 0 0;
+}
+/*-------------------------AREA WE SEARVE END----------------------------*/
+/*-------------------------TESTIMONIALS START----------------------------*/
+.testimonialsWide {
+	background-color: #0078a2;
+	width: 100%;
+}
+.testimonials {
+	padding: 70px 0 0 0;
+}
+.testimonials h2, .testimonials h2 a {
+	text-transform: uppercase;
+}
+.testimonials p {
+	font-size: 27px;
+}
+.testimonials h2, .testimonials h2 a,
+.testimonials p {
+	color: #ffffff;
+}
+.whyChoose p {
+	font-size: 23px;
+}
+.whyChoose, .testimonialSliderHolder {
+	padding: 0 45px 90px;
+}
+.testimonialSliderHolder .carousel-control.left,
+.testimonialSliderHolder .carousel-control.right {
+	background-image: none;
+}
+.testimonialSliderHolder .col-sm-10 {
+	float: none;
+}
+.testimonialSliderHolder p {
+	line-height: 36px;
+}
+.testimonialSliderHolder .fa {
+	font-size: 53px;
+	position: absolute;
+	top: 33%;
+}
+/*-------------------------TESTIMONIALS END----------------------------*/
+/*-------------------------CLEAR START-----------------------------*/
+/* Clear Floated Elements */
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+    clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
